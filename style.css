@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  
+  .container{
+    height: 2050px;
+    width: 750px;
+    background-color: black;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin-left: 22%;
+  }
+  
+  .row {
+    display: inline;
+  }
+  
+  .containerFalm {
+    width: 100%;
+    height: 400px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
+  .containerRoad{
+    width: 80%;
+    height: 400px;
+    opacity: 0.5; 
+    margin-left: 150px;
+    background-color: black;
+  }
+  
+  .containerAbout1{
+    width: 100%;
+    height: 400px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: gray;
+  }
+  
+  .containerAbout2{
+    width: 100%;
+    height: 400px;
+    margin-left: 150px;
+    background-color: black;
+  }
